@@ -31,9 +31,9 @@ const processData = (data) => {
 
 // POST endpoint
 app.post('/bfhl', (req, res) => {
-    const userId = "john_doe_17091999"; // Replace with actual user details
-    const email = "john@xyz.com";       // Replace with actual email
-    const rollNumber = "ABCD123";       // Replace with actual roll number
+    const userId = "SnehaAgarwal"; // Replace with actual user details
+    const email = "sneha@gmail.com";       // Replace with actual email
+    const rollNumber = "ABCD1234";       // Replace with actual roll number
 
     const data = req.body.data || [];
 
